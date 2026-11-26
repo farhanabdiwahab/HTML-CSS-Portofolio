@@ -16,7 +16,7 @@ h5,
 h6 {
   font-family: "Bricolage Grotesque", sans-serif;
 }
-
+/* header */
 header {
   display: flex;
   justify-content: space-between;
@@ -29,4 +29,31 @@ nav {
 a {
   color: #fff;
   text-decoration: none;
+}
+/* hero */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 24px;
+}
+.hero {
+  border: 2px solid yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+img {
+  width: 250px;
+  border-radius: 50%;
+}
+.hero-image {
+  margin: 24px;
+}
+.hero p {
+  margin-top: 32px;
+}
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
 }
