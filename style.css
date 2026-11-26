@@ -78,3 +78,18 @@ img {
   padding: 8px 16px;
   border-radius: 8px;
 }
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 16px;
+}
+.Project {
+  border: 2px solid white;
+  padding: 24px;
+  border-radius: 8px;
+}
+.project p {
+  margin: 8px 0;
+}
