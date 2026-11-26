@@ -93,9 +93,7 @@ img {
 .project p {
   margin: 8px 0;
 }
-.contact {
-  border: 2px solid yellow;
-}
+
 form {
   display: flex;
   flex-direction: column;
