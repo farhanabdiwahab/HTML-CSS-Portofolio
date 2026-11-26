@@ -93,3 +93,31 @@ img {
 .project p {
   margin: 8px 0;
 }
+.contact {
+  border: 2px solid yellow;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+input,
+textarea {
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+}
+button {
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #d65d3a;
+  color: black;
+  font-weight: bold;
+}
+.contact p {
+  margin: 8px 0;
+  font-weight: italic;
+  font-size: 18px;
+}
