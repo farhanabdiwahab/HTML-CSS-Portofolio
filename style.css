@@ -56,10 +56,19 @@ img {
   margin-top: 32px;
 }
 .hero h1 {
-  font-size: 48px;
+  font-size: 72px;
   margin-bottom: 16px;
+  color: #f86b42;
 }
-
+.hero .btn {
+  display: inline-block;
+  padding: 16px 32px;
+  background-color: #d65d3a;
+  color: black;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-top: 16px;
+}
 /* about */
 .about {
   display: flex;
@@ -80,11 +89,12 @@ img {
 }
 
 /* projects */
-.projects-list {
+
+.Projects-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 16px;
   margin-top: 16px;
+  margin: 16px;
 }
 .Project {
   border: 2px solid white;
