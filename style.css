@@ -30,6 +30,10 @@ a {
   color: #fff;
   text-decoration: none;
 }
+section {
+  padding: 24px;
+  margin: 24px;
+}
 /* hero */
 .container {
   max-width: 1200px;
@@ -61,4 +65,16 @@ img {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+.skills-list {
+  margin-top: 16px;
+  display: flex;
+  gap: 16px;
+}
+
+.skills-list span {
+  border: 2px solid white;
+  padding: 8px 16px;
+  border-radius: 8px;
 }
